@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+    .contenedor{
+        @apply w-[90%] mx-auto max-w-screen-lg;
+    }
+}
