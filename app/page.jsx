@@ -10,13 +10,13 @@ export default function Home() {
   return (
 
     <LayoutApp>
-      {/* <Header />
-      <Education /> 
+      <Header />
+      <Education />
       <Proyectos />
-      <Skills />  
-      <Behance /> 
-      <Footer />   */}<p>cesarpgasuz.dev</p>
+      <Skills />
+      <Behance />
+      <Footer />
     </LayoutApp>
-    
+
   )
 }
