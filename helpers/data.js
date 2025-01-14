@@ -1,0 +1,1 @@
+export const SKILLS = ['HTML', 'CSS', 'JavaScript', 'Vite', 'React', 'Tailwind CSS', 'Next.js', 'Figma', 'GitHub', 'Windows', 'Vercel', 'Netlify']

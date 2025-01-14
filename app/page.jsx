@@ -1,19 +1,22 @@
-import Image from 'next/image'
-import ImageMona from '@/public/images/monachina.jpg'
+import LayoutApp from "@/components/sections/LayoutApp"
+import Header from "@/components/sections/Header"
+import Education from "@/components/sections/Education"
+import Proyectos from "@/components/sections/Proyectos"
+import Skills from "@/components/sections/Skills"
+import Behance from "@/components/sections/Behance"
+import Footer from "@/components/sections/Footer"
 
 export default function Home() {
   return (
 
-    <div className="contenedor">
-      <Image src={ImageMona} width={449} height={412} alt='imagen anime' className='w-[229px] h-[212px]' />
-      <h1 className='mt-10 font-bold text-3xl mb-6'>cesarpgasuz.dev</h1>
-      <p>Todavía no termino mi página pero aquí puedes encontrar mis redes</p>
-      <ul className='leading-10'>
-        <li><a href='https://www.instagram.com/cesarpgasuz_' target="_blank" rel="noopener noreferrer" className='underline'>Instagram</a></li>
-        <li><a href='https://github.com/cesarpgasuz' target="_blank" rel="noopener noreferrer" className='underline'>Github</a></li>
-        <li><a href='https://www.behance.net/cesarpgasuz' target="_blank" rel="noopener noreferrer" className='underline'>Behance</a></li>
-      </ul>
-    </div>
+    <LayoutApp>
+      {/* <Header />
+      <Education /> 
+      <Proyectos />
+      <Skills />  
+      <Behance /> 
+      <Footer />   */}<p>cesarpgasuz.dev</p>
+    </LayoutApp>
     
   )
 }

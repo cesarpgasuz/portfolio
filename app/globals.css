@@ -5,6 +5,6 @@
 
 @layer components {
     .contenedor{
-        @apply w-[90%] mx-auto max-w-screen-lg;
+        @apply w-[90%] sm:w-[80%] mx-auto max-w-screen-lg;
     }
 }
