@@ -1,59 +1,18 @@
-import Image from 'next/image'
-import Imagen from '@/public/images/logo.png'
 
+import ProyectoItem from '../ui/ProyectoItem'
 const Proyectos = () => {
 
     const fecha = new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })
 
     return (
-        <section className="contenedor">
-            <h2>Proyectos</h2>
-            <p className="text-white">Lista de todos los proyectos y productos que he realizado hasta el día de hoy <span>{fecha}</span></p>
-        
-        
-            <div>
-                <article>
-                    <div>
-                        <Image src={Imagen} width={67} height={67} alt="Logo" className='rounded-full' />
-                        <h3>Directorio Virtual Doctor Mora</h3>
-                    </div>
-                    <div>
-                        <p>Directorio web para encontrar productos y servicios en el municipio de Doctor Mora, promoviendo y respaldando al comercio local y emprendedores</p>
-                    </div>
-                    <div>
-                        <div><Image src={Imagen} width={20} height={20} alt='logo' /></div>
-                        <div><a href='#'>Repositorio</a>
-                        <a href='#'>Ver Web</a></div>
-                    </div>
-                </article>
-                <article>
-                    <div>
-                        <Image src={Imagen} width={67} height={67} alt="Logo" className='rounded-full' />
-                        <h3>Invitaciones Web</h3>
-                    </div>
-                    <div>
-                        <p>Invitaciones web para eventos sociales con una variedad de diseños y temáticas personalizadas</p>
-                    </div>
-                    <div>
-                        <div><Image src={Imagen} width={20} height={20} alt='logo' /></div>
-                        <div><a href='#'>Repositorio</a>
-                        <a href='#'>Ver Web</a></div>
-                    </div>
-                </article>
-                <article>
-                    <div>
-                        <Image src={Imagen} width={67} height={67} alt="Logo" className='rounded-full' />
-                        <h3>Doctor Mora Travel</h3>
-                    </div>
-                    <div>
-                        <p>Página turística para explorar Doctor Mora, Guanajuato, con información detallada sobre lugares turísticos.</p>
-                    </div>
-                    <div>
-                        <div><Image src={Imagen} width={20} height={20} alt='logo' /></div>
-                        <div><a href='#'>Repositorio</a>
-                        <a href='#'>Ver Web</a></div>
-                    </div>
-                </article>
+        <section className="contenedor py-[50px]">
+            <h2 className='text-c-white text-2xl mb-6'>Proyectos</h2>
+            <p className="text-c-white/70 text-xs leading-7 mb-9">Lista de todos los proyectos y productos que he realizado hasta el día de hoy <span className='text-c-cyan'>{fecha}</span></p>
+
+            <div className='grid gap-7'>
+                <ProyectoItem />
+                <ProyectoItem />
+                <ProyectoItem />
             </div>
         </section>
     )
