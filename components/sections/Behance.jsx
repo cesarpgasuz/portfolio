@@ -7,7 +7,7 @@ const Behance = () => {
       <div className="grid gap-7">
         <div>
           <h2 className='text-c-white text-2xl mb-6'>Diseños Web</h2>
-          <p className="text-c-white/70 text-xs leading-7">{parrafo}</p>
+          <p className="text-c-white/60 leading-8">{parrafo}</p>
         </div>
         <div>
           <a href="#" className="bg-c-blue w-full text-center block py-6 text-2xl font-bold rounded-lg">Behance</a>
