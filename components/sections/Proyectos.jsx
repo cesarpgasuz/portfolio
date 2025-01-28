@@ -1,5 +1,7 @@
-
+import { PROYECTOS } from '@/helpers/data'
 import ProyectoItem from '../ui/ProyectoItem'
+
+
 const Proyectos = () => {
 
     const fecha = new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'long', day: 'numeric' })
@@ -10,9 +12,13 @@ const Proyectos = () => {
             <p className="text-c-white/60 leading-8 mb-9">Lista de todos los proyectos y productos que he realizado hasta el día de hoy <span className='text-c-cyan'>{fecha}</span></p>
 
             <div className='grid gap-7'>
-                <ProyectoItem />
-                <ProyectoItem />
-                <ProyectoItem />
+                {PROYECTOS.map(proyecto => (
+
+                    <ProyectoItem key={proyecto.id} proyecto={proyecto} />
+
+                ))}
+                
+                
             </div>
         </section>
     )
