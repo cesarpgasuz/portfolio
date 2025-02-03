@@ -1,14 +1,15 @@
 import Image from 'next/image'
-import Imagen from '@/public/images/logo.png'
+import ImagenDefault from '@/public/images/default.png'
 import { getIcon } from '@/helpers/icons'
 
 const ProyectoItem = ({ proyecto }) => {
 
-    const { id, nombre, descripcion, tecnologias, repositorio, url } = proyecto
+    const { nombre, descripcion, tecnologias, repositorio, url, img } = proyecto
+    const ImagenSrc = img ? `/images/${img}` : ImagenDefault
     return (
         <article className='border border-c-marino-line rounded-2xl p-6'>
             <div>
-                <Image src={Imagen} width={67} height={67} alt="Logo" className='rounded-full mb-3' />
+                <Image src={ImagenSrc} width={67} height={67} alt="Logo" className='rounded-full mb-3 object-cover' />
                 <h3 className='text-c-white font-medium mb-3'>{nombre}</h3>
             </div>
 
@@ -28,8 +29,8 @@ const ProyectoItem = ({ proyecto }) => {
 
                 </div>
                 <div className='flex justify-between'>
-                    {repositorio && <a href='#' className='text-c-white/70 text-sm'>Repositorio</a>}
-                    {url && <a href='#' className='text-c-white/70 text-sm'>Ver Web</a>}
+                    {repositorio && <a href={repositorio} className='text-c-white/70 text-sm' target='_blank' rel='noopener noreferrer'>Repositorio</a>}
+                    {url && <a href={url} className='text-c-white/70 text-sm' target='_blank' rel='noopener noreferrer'>Ver Web</a>}
                 </div>
             </div>
         </article>

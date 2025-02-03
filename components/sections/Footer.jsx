@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <section className="contenedor py-[50px]">  
+    <section className="contenedor py-[50px]" id="contacto">  
         <h2 className='text-c-white text-2xl mb-6'>Contacto</h2>
         <a href="mailto:cesarpgasuz@gmail.com" 
         target="_blank"

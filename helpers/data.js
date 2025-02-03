@@ -23,11 +23,11 @@ export const REDES = [
     },
     {
         name: 'Descargar CV',
-        url: '#',
+        url: '/docs/cv.pdf',
     },
     {
         name: 'Contacto',
-        url: '#',
+        url: '#contacto',
     }
 
 ]
@@ -37,24 +37,26 @@ export const PROYECTOS = [
         id: 1,
         nombre: 'Directorio Virtual Doctor Mora',
         descripcion: 'Directorio web para encontrar productos y servicios en el municipio de Doctor Mora, promoviendo y respaldando al comercio local y emprendedores',
-        tecnologias: ['nextjs', 'tailwindcss', 'react'],
-        repositorio: 'https://github.com',
-        url: 'https://doctor-mora.vercel.app'
+        tecnologias: ['html', 'css', 'javascript'],
+        url: 'https://charcas.xyz/',
+        img: 'logo-charcas.png'
     },
     {
         id: 2,
         nombre: 'Invitaciones Web',
         descripcion: 'Invitaciones web para eventos sociales con una variedad de diseños y temáticas personalizadas',
-        tecnologias: ['vite', 'tailwindcss'],
+        tecnologias: ['vite', 'tailwindcss', 'react'],
         repositorio: '',
-        url: 'https://doctor-mora.vercel.app'
+        url: 'https://invitacionescreativas.vercel.app/',
+        img: 'logo-invitaciones.png'
     },
     {
         id: 1,
         nombre: 'Doctor Mora Travel',
         descripcion: 'Página turística para explorar Doctor Mora, Guanajuato, con información detallada sobre lugares turísticos.',
-        tecnologias: ['react'],
-        repositorio: 'https://github.com',
-        url: 'https://doctor-mora.vercel.app'
+        tecnologias: ['nextjs', 'tailwindcss'],
+        repositorio: 'https://github.com/cesarpgasuz/doctormora',
+        url: 'https://visitadoctormora.com/',
+        img: 'logo-charcas.png'
     }
 ]
