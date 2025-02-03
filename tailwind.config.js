@@ -14,10 +14,13 @@ module.exports = {
       },
       colors: {
         'c-marino': '#000E16',
+        'c-marino-claro': '#011622',
+        'c-marino-line': '#082C3F',
         'c-white': '#F2FAFF',
         'c-yellow': '#FFF900',
-        'c-cyab': '#4EE4FF',
-        'c-pink': '#FF0448'
+        'c-cyan': '#4EE4FF',
+        'c-pink': '#FF0448',
+        'c-blue': '#175DF2'
       }
     },
   },
