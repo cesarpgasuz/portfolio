@@ -3,10 +3,10 @@ const Behance = () => {
   const parrafo = 'Aquí puedes ver una colección de todos los diseños web que he realizado y que poco a poco he llevado a código.'
   const url = 'https://www.behance.net/cesarpgasuz'
   return (
-    <section className="contenedor py-[50px]">  
+    <section className="contenedor py-[50px] lg:py-20">  
       <div className="grid gap-7">
         <div>
-          <h2 className='text-c-white text-2xl mb-6'>Diseños Web</h2>
+          <h2 className='text-c-white text-2xl mb-6 lg:text-[32px] lg:font-bold'>Diseños Web</h2>
           <p className="text-c-white/60 leading-8">{parrafo}</p>
         </div>
         <div>
