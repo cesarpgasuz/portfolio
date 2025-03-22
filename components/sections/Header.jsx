@@ -12,7 +12,7 @@ const Header = () => {
         <Image src={LogoImage} width={1000} height={1000} alt="Logo" className='rotate-[9deg] size-[56px] lg:size-[180px] xl:size-[256px] border-2 lg:border-4 border-c-white rounded-lg' />
       </div>
       <div className='lg:w-[600px] lg:order-1 lg:flex-shrink-0'>
-        <span className='mt-6 text-xl text-c-cyan inline-block'>#Hola</span>
+        <span className='mt-6 text-xl text-c-cyan inline-block'>🤗 Hola</span>
         <h1 className='text-4xl text-c-white font-bold italic mb-6 lg:text-[42px]'>Soy <span className='text-c-yellow'>Cesar Pablo</span></h1>
         <p className='text-c-white leading-8 text-c-white/60 mb-8'>Soy desarrollador frontend y realizo páginas web con <Etiqueta><IconNextjs /> Next.js</Etiqueta>, <Etiqueta><IconReactjs /> React</Etiqueta> y <Etiqueta><IconTailwindCSS />Tailwind CSS</Etiqueta>. Me apasiona crear diseños modernos, optimizados y con una excelente experiencia de usuario.</p>
         <div className='flex flex-col gap-6 lg:flex-row lg:gap-9'>
