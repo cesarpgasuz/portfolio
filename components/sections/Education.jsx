@@ -16,7 +16,7 @@ const Education = () => {
                     </div>
                 </div>
             </article>
-            <article className='py-[50px]'>
+            <article className='py-[50px] lg:py-0'>
                 <Title>Experiencia</Title>
                 <p className='text-c-white/60 text-lg border-l-4 border-l-c-cyan pl-3'>Freelancer</p>
             </article>
