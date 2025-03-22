@@ -19,7 +19,7 @@ const Proyectos = () => {
                 
             </div>
 
-            <Link href='/proyectos' className='text-c-white mx-auto mt-14 w-fit block'>Mira todos los proyectos aquí</Link>
+            <Link href='/proyectos' className='text-c-white mx-auto mt-14 w-fit block pb-2 border-b-2 border-b-transparent hover:border-b-c-white'>Mira todos los proyectos aquí</Link>
         </section>
     )
 }
