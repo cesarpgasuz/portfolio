@@ -2,9 +2,9 @@ import Image from 'next/image'
 import LogoUniversidad from '@/public/images/logo-universidad.webp'
 
 const Education = () => {
-    const Title = ({children}) =>  <h2 className='text-c-white text-2xl mb-7'>{children}</h2>
+    const Title = ({children}) =>  <h2 className='text-c-white text-2xl mb-7 lg:text-[32px] lg:font-bold'>{children}</h2>
     return (
-        <section className="contenedor py-[50px]">
+        <section className="contenedor py-[50px] lg:py-20 lg:flex lg:gap-10 lg:justify-between">
             <article>
                 <Title>Educación</Title>
                 <div className='flex gap-4'>
@@ -16,7 +16,7 @@ const Education = () => {
                     </div>
                 </div>
             </article>
-            <article className='py-[50px]'>
+            <article className='py-[50px] lg:py-0'>
                 <Title>Experiencia</Title>
                 <p className='text-c-white/60 text-lg border-l-4 border-l-c-cyan pl-3'>Freelancer</p>
             </article>

@@ -1,0 +1,20 @@
+@media screen and (min-width: 1024px) {
+    .proyectos {
+        grid-template-areas: "principal secundario"
+            "principal terciario";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .proyectos article:nth-child(1) {
+        grid-area: principal;
+    }
+
+    .proyectos article:nth-child(2) {
+        grid-area: secundario;
+    }
+
+    .proyectos article:nth-child(3) {
+        grid-area: terciario;
+    }
+}
