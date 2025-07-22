@@ -13,7 +13,7 @@ const Proyectos = () => {
             <p className="text-c-white/60 leading-8 mb-9 relative z-10">Lista de todos los proyectos y productos que he realizado hasta el día de hoy <FechaActual/></p>
 
             <div className={`grid gap-7 lg:gap-5 relative z-20 ${styles.proyectos}`}>
-                {PROYECTOS.map(proyecto => (
+                {PROYECTOS.slice(0, 3).map(proyecto => (
                     <ProyectoItem key={proyecto.id} proyecto={proyecto} />
                 ))}
                 

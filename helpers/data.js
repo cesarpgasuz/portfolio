@@ -51,12 +51,29 @@ export const PROYECTOS = [
         img: 'logo-invitaciones.png'
     },
     {
-        id: 1,
+        id: 3,
         nombre: 'Doctor Mora Travel',
         descripcion: 'Página turística para explorar Doctor Mora, Guanajuato, con información detallada sobre lugares turísticos.',
         tecnologias: ['nextjs', 'tailwindcss'],
         repositorio: 'https://github.com/cesarpgasuz/doctormora',
         url: 'https://visitadoctormora.com/',
         img: 'logo-charcas.png'
+    },
+    {
+        id: 4,
+        nombre: 'Landing Page - Hackathon del Dev',
+        descripcion: 'Rediseño y maquetado de la Landing Page del evento Hackathon del Dev, con un enfoque en la experiencia del usuario y la optimización para dispositivos móviles.',
+        tecnologias: ['nextjs', 'tailwindcss', 'figma'],
+        repositorio: 'https://github.com/cesarpgasuz/hackathon-del-dev',
+        url: 'https://lahackathondeldev.vercel.app/'
+    },
+    {
+        id: 5,
+        nombre: 'Diagonal /',
+        descripcion: 'Diseño y Maquetado de una Landing Page para una Startup dedicada al diseño y desarrollo de sitios web.',
+        tecnologias: ['html', 'css', 'javascript', 'materialize'],
+        repositorio: '',
+        url: 'https://diagona1.github.io/',
+
     }
 ]
